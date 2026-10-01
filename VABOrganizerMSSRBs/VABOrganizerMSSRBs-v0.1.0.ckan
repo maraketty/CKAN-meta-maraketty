@@ -7,6 +7,7 @@ author:
   - Maraketty
 license: MIT
 $kref: '#/ckan/github/Maraketty/VABOrganizerMSSRBs'
+$vref: '#/ckan/ksp-avc'
 release_status: development
 resources:
   bugtracker: https://github.com/maraketty/VABOrganizerMSSRBs/issues
@@ -21,6 +22,7 @@ tags:
 install:
   - file: GameData/VABOrganizerMSSRB/
     install_to: GameData
+ksp_version: any
 depends:
   - name: VABOrganizer
   - name: ModuleManager
