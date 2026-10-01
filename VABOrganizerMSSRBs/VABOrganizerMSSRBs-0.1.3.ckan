@@ -1,8 +1,8 @@
 {
-    "spec_version": "v1.36",
+    "spec_version": 1,
     "identifier": "VABOrganizerMSSRBs",
-    "name": "VABOrgaznier - Modular Segmented SRBs Configs",
-    "abstract": "Moves parts from the MSSRBs mod from the \"Misc\" subcategory into their own subcategories.",
+    "name": "VABOrganizer - Modular Segmented SRBs Configs",
+    "abstract": "Moves parts from the MSSRBs mod from the \\\"Misc\\\" subcategory into their own subcategories.",
     "author": [
         "Maraketty"
     ],
@@ -10,8 +10,9 @@
     "ksp_version_min": "1.12.0",
     "ksp_version_max": "1.12.99",
     "license": "MIT",
-    "release_status": "development",
+    "release_status": "stable",
     "resources": {
+        "homepage": "https://github.com/maraketty/VABOrganizerMSSRBs",
         "spacedock": "https://spacedock.info/mod/4633/VABOrganizer%20-%20Modular%20Segmented%20SRBs%20Configs",
         "repository": "https://github.com/maraketty/VABOrganizerMSSRBs",
         "bugtracker": "https://github.com/maraketty/VABOrganizerMSSRBs/issues",
@@ -23,10 +24,10 @@
     ],
     "depends": [
         {
-            "name": "VABOrganizer"
+            "name": "ModuleManager"
         },
         {
-            "name": "ModuleManager"
+            "name": "VABOrganizer"
         },
         {
             "name": "MS-SRBs"
@@ -41,6 +42,7 @@
     "download": "https://github.com/maraketty/VABOrganizerMSSRBs/releases/download/0.1.3/VABOrganizerMSSRBs_v0.1.3.zip",
     "download_size": 3106,
     "download_hash": {
+        "sha1": "037E85EDEC8AFBEC3BE4AFB4913DE0D1976FE0D5",
         "sha256": "5D74DA7657D43056FD4889B9938493B18189522069413D48D9A247E2CF3E12ED"
     },
     "download_content_type": "application/zip",
